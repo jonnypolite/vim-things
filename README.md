@@ -16,3 +16,10 @@ The cool plugins will have Git repos so that you can install them into `bundle` 
 This is how I installed the [Dracula theme](https://draculatheme.com/vim/):
 
 `git submodule add https://github.com/dracula/vim.git bundle/dracula-theme`
+
+## Updating submodules (plugins)
+This seems to work:
+```
+git pull --recurse-submodules
+git submodule update --remote --recursive
+```
