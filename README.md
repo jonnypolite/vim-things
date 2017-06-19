@@ -1,5 +1,4 @@
 # I'm finally putting my vim configuration into source control
----
 
 ## Installation
 Clone the repo like this:
