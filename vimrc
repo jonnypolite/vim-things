@@ -22,3 +22,7 @@ set showmatch " highlight matching [{()}]
 " search stuff
 set incsearch
 set hlsearch
+
+" New lines without insert mode
+nmap oo o<ESC>k
+nmap OO O<ESC>j
