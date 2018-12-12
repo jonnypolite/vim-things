@@ -3,7 +3,7 @@
 ## Installation
 Clone the repo like this:
 
-`git clone https://github.com/jonnypolite/vim-things.git ~/.vim`
+`git clone --recurse-submodules https://github.com/jonnypolite/vim-things.git ~/.vim`
 
 Then make a symlink to the new vimrc:
 
@@ -17,7 +17,7 @@ This is how I installed the [Dracula theme](https://draculatheme.com/vim/):
 
 `git submodule add https://github.com/dracula/vim.git bundle/dracula-theme`
 
-## Updating submodules (plugins)
+## Updating submodules (plugins) to the latest versions
 This seems to work:
 ```
 git pull --recurse-submodules
