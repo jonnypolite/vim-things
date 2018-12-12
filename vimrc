@@ -19,6 +19,11 @@ filetype indent on " load filetype-specific indent files
 set wildmenu " visual tab complete for command menu
 set showmatch " highlight matching [{()}]
 
+" Cursor settings, I don't really know which is for which
+let &t_SI.="\e[5 q"
+let &t_SR.="\e[4 q"
+let &t_EI.="\e[1 q"
+
 " search stuff
 set incsearch
 set hlsearch
@@ -26,3 +31,6 @@ set hlsearch
 " New lines without insert mode
 nmap oo o<ESC>k
 nmap OO O<ESC>j
+
+" Put a semicolon at the end of a line
+nnoremap ;; A;<ESC>
