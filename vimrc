@@ -3,7 +3,6 @@ execute pathogen#infect()
 " Here's a .vimrc guide that I like: https://dougblack.io/words/a-good-vimrc.html
 
 syntax enable
-color dracula
 
 " Default tab settings
 set tabstop=2
