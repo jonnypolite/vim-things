@@ -19,6 +19,9 @@ filetype indent on " load filetype-specific indent files
 set wildmenu " visual tab complete for command menu
 set showmatch " highlight matching [{()}]
 
+" Start scrolling x lines away from the edge
+set scrolloff=20
+
 " Cursor settings, I don't really know which is for which
 let &t_SI.="\e[5 q"
 let &t_SR.="\e[4 q"
