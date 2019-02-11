@@ -10,7 +10,7 @@ set softtabstop=2 " number of spaces inserted on <tab> and removed on backspace
 set shiftwidth=2 " Used for auto indent and >> and whatnot
 set expandtab " tabs are spaces
 
-" Python tab settings
+" Four space tab settings
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
 set number
