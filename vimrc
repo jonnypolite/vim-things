@@ -12,6 +12,7 @@ set expandtab " tabs are spaces
 
 " Four space tab settings
 autocmd Filetype javascript setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
+autocmd Filetype json setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
 set number
