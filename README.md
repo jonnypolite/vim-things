@@ -23,3 +23,10 @@ This seems to work:
 git pull --recurse-submodules
 git submodule update --remote --recursive
 ```
+
+## Submodule dirs are empty?
+Try this:
+```
+git submodule init
+git submodule update
+```
