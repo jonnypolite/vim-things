@@ -9,6 +9,8 @@ set tabstop=2
 set softtabstop=2 " number of spaces inserted on <tab> and removed on backspace
 set shiftwidth=2 " Used for auto indent and >> and whatnot
 set expandtab " tabs are spaces
+nnoremap <S-Tab> <<
+nnoremap <Tab> >>
 
 " Four space tab settings
 autocmd Filetype javascript setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
