@@ -39,3 +39,13 @@ nmap OO O<ESC>j
 
 " Put a semicolon at the end of a line
 nnoremap ;; A;<ESC>
+
+" Buffer Explorer
+" autocmd vimenter * MBEOpen
+
+" NERDTree configs
+" autocmd vimenter * NERDTreeVCS
+map <C-n> :NERDTreeVCS<CR>
+map <C-c> :NERDTreeClose<CR>
+
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
