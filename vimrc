@@ -15,6 +15,10 @@ nnoremap <Tab> >>
 " Four space tab settings
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
+" Case insensitive searches unless capital letters are typed
+set ignorecase
+set smartcase
+
 set number
 set cursorline
 filetype indent on " load filetype-specific indent files
