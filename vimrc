@@ -1,4 +1,5 @@
 execute pathogen#infect()
+colorscheme dracula
 
 " Here's a .vimrc guide that I like: https://dougblack.io/words/a-good-vimrc.html
 
