@@ -30,3 +30,9 @@ Try this:
 git submodule init
 git submodule update
 ```
+
+## Change your mind about a submodule?
+```
+git rm -r subModuleName
+rm -rf .git/modules/subModuleName
+```
