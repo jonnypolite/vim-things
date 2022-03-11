@@ -44,3 +44,10 @@ nmap OO O<ESC>j
 
 " Put a semicolon at the end of a line
 nnoremap ;; A;<ESC>
+
+" This is VimWiki stuff
+set nocompatible
+filetype plugin on
+let g:vimwiki_list = [{'path': '~/Dev/vimwiki/', 'index': 'README',
+                     \ 'syntax': 'markdown', 'ext': '.md',
+                     \ 'links_space_char': '_'}]
