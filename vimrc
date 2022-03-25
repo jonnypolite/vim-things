@@ -51,3 +51,6 @@ filetype plugin on
 let g:vimwiki_list = [{'path': '~/Dev/vimwiki/', 'index': 'README',
                      \ 'syntax': 'markdown', 'ext': '.md',
                      \ 'links_space_char': '_'}]
+let g:vimwiki_toc_header_level = 2
+let g:vimwiki_markdown_link_ext = 1
+let g:vimwiki_auto_header = 1
